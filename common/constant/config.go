@@ -28,4 +28,6 @@ type ClientConfig struct {
 	UpdateThreadNum      int
 	NotLoadCacheAtStart  bool
 	UpdateCacheWhenEmpty bool
+	OpenKMS				 bool
+	RegionId             string
 }
